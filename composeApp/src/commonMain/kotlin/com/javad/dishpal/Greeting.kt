@@ -1,9 +1,0 @@
-package com.javad.dishpal
-
-class Greeting {
-    private val platform = getPlatform()
-
-    fun greet(): String {
-        return "Hello, ${platform.name}!"
-    }
-}
