@@ -1,0 +1,67 @@
+[
+    {
+        "userAvatarUrl": null,
+        "rate": 4.2,
+        "rateCount": 5678,
+        "userInitials": "MA",
+        "dishImageUrl": [
+            "https://picsum.photos/600/400?stamp=12345678"
+        ],
+        "dishName": "Spaghetti Carbonara",
+        "dishType": "Italian",
+        "dishDescription": "Ingredients: Spaghetti, Pancetta or bacon, Eggs, Parmesan cheese, Olive oil, Garlic, Salt, Black pepper",
+        "id": 0
+    },
+    {
+        "userAvatarUrl": null,
+        "rate": 3.8,
+        "rateCount": 12345,
+        "userInitials": "MA",
+        "dishImageUrl": [
+            "https://picsum.photos/600/400?stamp=23456789"
+        ],
+        "dishName": "Chicken Tikka Masala",
+        "dishType": "Indian",
+        "dishDescription": "Ingredients: Chicken breasts, Yogurt, Lemon juice, Spices (such as garam masala, cumin, paprika, coriander), Garlic, Ginger, Tomato",
+        "id": 1
+    },
+    {
+        "userAvatarUrl": null,
+        "rate": 4.5,
+        "rateCount": 8900,
+        "userInitials": "JB",
+        "dishImageUrl": [
+            "https://picsum.photos/600/400?stamp=34567890"
+        ],
+        "dishName": "Beef Stroganoff",
+        "dishType": "Russian",
+        "dishDescription": "Ingredients: Beef, Mushrooms, Onions, Sour Cream, Butter, Garlic, Salt, Pepper, Dijon mustard",
+        "id": 2
+    },
+    {
+        "userAvatarUrl": null,
+        "rate": 4.7,
+        "rateCount": 6700,
+        "userInitials": "LM",
+        "dishImageUrl": [
+            "https://picsum.photos/600/400?stamp=45678901"
+        ],
+        "dishName": "Pad Thai",
+        "dishType": "Thai",
+        "dishDescription": "Ingredients: Rice noodles, Shrimp, Tofu, Eggs, Bean sprouts, Peanuts, Tamarind paste, Fish sauce, Lime, Garlic",
+        "id": 3
+    },
+    {
+        "userAvatarUrl": null,
+        "rate": 4.9,
+        "rateCount": 23000,
+        "userInitials": "DS",
+        "dishImageUrl": [
+            "https://picsum.photos/600/400?stamp=56789012"
+        ],
+        "dishName": "Sushi",
+        "dishType": "Japanese",
+        "dishDescription": "Ingredients: Sushi rice, Nori, Fresh fish (tuna, salmon), Vegetables (cucumber, avocado), Soy sauce, Wasabi, Pickled ginger",
+        "id": 4
+    }
+]
