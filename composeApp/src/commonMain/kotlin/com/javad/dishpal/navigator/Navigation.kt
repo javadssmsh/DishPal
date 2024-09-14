@@ -13,10 +13,15 @@ import com.javad.dishpal.feature_onboarding.Onboard3
 fun Navigation(modifier: Modifier, viewModel: NavigationViewModel) {
 
 
-    when (viewModel.currentScreen.collectAsState().value) {
+    when (val currentScreen = viewModel.currentScreen.collectAsState().value) {
         is Screen.OnBoard1 -> Onboard1(modifier = modifier, viewModel = viewModel)
         is Screen.OnBoard2 -> Onboard2(modifier = modifier, viewModel = viewModel)
         is Screen.OnBoard3 -> Onboard3(modifier = modifier, viewModel = viewModel)
+        else -> MainScreen(
+            modifier = modifier,
+            currentScreen = currentScreen,
+            onNavigate = viewModel::navigate
+        )
     }
 
 }
